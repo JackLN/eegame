@@ -183,7 +183,9 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Script\Common\Template\MonoSingleton.cs" />
      <Compile Include="Assets\Script\Common\Template\Singleton.cs" />
+     <Compile Include="Assets\Script\Manager\AudioManager.cs" />
      <Compile Include="Assets\Script\Manager\EventManager.cs" />
+     <Compile Include="Assets\Script\Utility\DataEdit.cs" />
      <Compile Include="Assets\Script\test.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.8.2.txt" />
