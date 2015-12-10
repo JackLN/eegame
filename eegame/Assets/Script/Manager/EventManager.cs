@@ -8,12 +8,12 @@ namespace eegame
 	EventMax,
     }
 
-    public class EventManager : MonoSingleton<EventManager>
+    public class EventManager : Singleton<EventManager>
     {
 	public delegate void EventHandle(EventType event,System.Object data);
 	private EventHandle[] m_ArrayHandle;
 	
-	private void Start()
+	protected void Init()
 	{
 	    int array_num = (int)EventType.EventMax;
 	    m_ArrayHandle = new EventHandle[array_num];
