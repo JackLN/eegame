@@ -46,6 +46,21 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CCTween\CCAction.cs" />
+     <Compile Include="Assets\CCTween\CCAlphaTo.cs" />
+     <Compile Include="Assets\CCTween\CCBezierTo.cs" />
+     <Compile Include="Assets\CCTween\CCCallback.cs" />
+     <Compile Include="Assets\CCTween\CCDelayTime.cs" />
+     <Compile Include="Assets\CCTween\CCJumpTo.cs" />
+     <Compile Include="Assets\CCTween\CCMoveTo.cs" />
+     <Compile Include="Assets\CCTween\CCProgressTo.cs" />
+     <Compile Include="Assets\CCTween\CCRepeat.cs" />
+     <Compile Include="Assets\CCTween\CCRepeatForever.cs" />
+     <Compile Include="Assets\CCTween\CCRotateTo.cs" />
+     <Compile Include="Assets\CCTween\CCScaleTo.cs" />
+     <Compile Include="Assets\CCTween\CCSequence.cs" />
+     <Compile Include="Assets\CCTween\CCSpawn.cs" />
+     <Compile Include="Assets\CCTween\CCTween.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -185,6 +200,7 @@
      <Compile Include="Assets\Script\Common\Template\Singleton.cs" />
      <Compile Include="Assets\Script\Manager\AudioManager.cs" />
      <Compile Include="Assets\Script\Manager\EventManager.cs" />
+     <Compile Include="Assets\Script\Manager\UIManager.cs" />
      <Compile Include="Assets\Script\Utility\DataEdit.cs" />
      <Compile Include="Assets\Script\test.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
