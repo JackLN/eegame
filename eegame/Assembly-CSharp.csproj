@@ -198,9 +198,14 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Script\Common\Template\MonoSingleton.cs" />
      <Compile Include="Assets\Script\Common\Template\Singleton.cs" />
+     <Compile Include="Assets\Script\Game\UI\UIBaseWindow.cs" />
+     <Compile Include="Assets\Script\Game\UI\UIGrayLayer.cs" />
+     <Compile Include="Assets\Script\Game\UI\UITools.cs" />
      <Compile Include="Assets\Script\Manager\AudioManager.cs" />
      <Compile Include="Assets\Script\Manager\EventManager.cs" />
+     <Compile Include="Assets\Script\Manager\GameManager.cs" />
      <Compile Include="Assets\Script\Manager\UIManager.cs" />
+     <Compile Include="Assets\Script\Utility\AppInit.cs" />
      <Compile Include="Assets\Script\Utility\DataEdit.cs" />
      <Compile Include="Assets\Script\test.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
