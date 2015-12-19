@@ -8,7 +8,9 @@ namespace eegame
 	public enum FileNameType
 	{
 		RESOURCE_NAME,
-		RESOURCE_MUSIC_NAME,
+		RESOURCE_MUSIC,
+		RESOURCE_TABLE,
+		RESOURCE_PREFABS,
 		NONE,
 	}
 
@@ -42,13 +44,13 @@ namespace eegame
 			switch (type) 
 			{
 			case FileNameType.RESOURCE_NAME:
-				str = "Resource/";
+
 				break;
 			case FileNameType.NONE:
-				str = "Resource/";
+
 				break;
-			case FileNameType.RESOURCE_MUSIC_NAME:
-				str = "Resource/Music/";
+			case FileNameType.RESOURCE_MUSIC:
+
 				break;
 			}
 			return str;

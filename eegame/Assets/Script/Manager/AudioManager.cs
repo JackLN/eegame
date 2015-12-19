@@ -281,7 +281,7 @@ namespace eegame{
 		/// </summary>
 		private AudioClip getAudioClip(string sFile)
 		{
-			string sRealFile = DataEdit.FormatFileName(sFile, FileNameType.RESOURCE_MUSIC_NAME);
+			string sRealFile = DataEdit.FormatFileName(sFile, FileNameType.RESOURCE_MUSIC);
 			AudioClip clip = Resources.Load(sRealFile) as AudioClip;
 			return clip;
 		}
