@@ -14,13 +14,8 @@ namespace eegame
 		NONE,
 	}
 
-	public class DataEdit : Singleton<DataEdit>
+	public class DataEdit
 	{
-		public DataEdit()
-		{
-
-		}
-
 		/// <summary>
 		/// Formats the name of the file.
 		/// </summary>
@@ -35,7 +30,7 @@ namespace eegame
 			}
 						
 			strFileName = strFileName.Replace('\\', '/');
-			return strFileName;			
+			return strResourcePath+strFileName;			
 		}
 
 		private static string getPathWithType(FileNameType type)
@@ -51,6 +46,9 @@ namespace eegame
 				break;
 			case FileNameType.RESOURCE_MUSIC:
 
+				break;
+			case FileNameType.RESOURCE_TABLE:
+				str = System.Environment.CurrentDirectory+"/Data/";
 				break;
 			}
 			return str;
